@@ -39,7 +39,7 @@ print(len(tech_list))
 gmaps_results = []
 calls = 0
 
-for account in account_list[:50]:  # To avoid overwhelming the API, this was run in groups of 50 accounts (750 calls) 
+for account in account_list[:50]:  # To avoid overwhelming the API, this was run in groups of 50 accounts (1,250 calls) 
     work = account[1]  # Grab the company address for this company
     sf_id = account[0]  # Grab the company ID for this company
     for tech in tech_list:
